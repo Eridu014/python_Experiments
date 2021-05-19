@@ -1,7 +1,7 @@
 score = input("Enter Score: ")
 score = float(score)
 
-if score > 1.0 :
+if score > 1.0 or < 0.0:
     print("Error")
 elif score < 0.6 :
     print("F")
